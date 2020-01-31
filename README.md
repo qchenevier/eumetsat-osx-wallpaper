@@ -46,3 +46,4 @@ cat /tmp/std*.log
 ## To be improved
 
 - [ ] download more sample images from EUMETSAT to generate a proper mask programmatically
+- [ ] refactor code to make it cleaner (modularization, naming, ...)
