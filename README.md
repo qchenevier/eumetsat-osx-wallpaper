@@ -1,6 +1,6 @@
 # EUMETSAT OSX wallpaper
 
-Python script to create an awesome wallpaper of our earth, as seen by EUMETSAT sattelites above Europe.
+Python script to create an awesome wallpaper of our earth, as seen by EUMETSAT satellites above Europe.
 
 ## Prerequisites
 
