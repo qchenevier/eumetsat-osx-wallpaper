@@ -5,14 +5,14 @@ Python script to create an awesome wallpaper of our earth, as seen by EUMETSAT s
 ## Prerequisites
 
 ### Anaconda installation
-conda or miniconda installed
+install conda or miniconda:
 ```zsh
 brew install miniconda
 conda init zsh
 ```
 
 ### Conda environment created
-install the environment:
+install the conda environment:
 ```zsh
 conda env create -f environment.yml
 ```
