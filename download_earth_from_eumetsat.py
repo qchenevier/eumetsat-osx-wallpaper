@@ -67,7 +67,7 @@ SATURATION_FACTOR = 1.75
 
 if not os.path.exists(image_file):
 
-    mask_image_array = open_image_file("mask_manually_improved.png")[:, :, :3]
+    mask_image_array = open_image_file("mask_raw.png")[:, :, :3]
 
     image_array = download_image(image_url)
 
