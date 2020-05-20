@@ -10,7 +10,7 @@ def _rasterio_data_to_image(array):
 
 def download_image(image_url):
     from rasterio.io import MemoryFile
-    response_image = requests.get(image_url)
+    response_image = requests.get(image_url, verify=False)
     with MemoryFile(response_image.content) as memfile:
         with memfile.open() as dataset:
             data_array = dataset.read()
@@ -48,7 +48,7 @@ def saturate(x, factor=2):
 
 #%%
 # https://github.com/domoritz/himawari-8-chrome/pull/29
-response = requests.get("https://meteosat-url.appspot.com/msg")
+response = requests.get("https://meteosat-url.appspot.com/msg", verify=False)
 
 image_url = response.json()["url"]
 image_date = (
